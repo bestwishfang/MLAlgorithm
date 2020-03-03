@@ -19,7 +19,7 @@ class MyLinerRegression(object):
         return weight
 
     def get_bias(self, shape):
-        # 初始化权重
+        # 初始化偏执
         with tf.variable_scope('get_bias'):
             bias = tf.Variable(
                 initial_value=tf.random_normal(
